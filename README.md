@@ -49,7 +49,7 @@ The goal of this project is to practice modern JavaScript without frameworks, fo
 │── /build               # production output (generated)
 │
 │── /assets              # development sources (edit here)
-│   ├── /css             # SCSS/CSS
+│   ├── /scss             # SCSS
 │   │   ├── main.scss
 │   │   └── _*.scss
 │   ├── /js              # ES modules
