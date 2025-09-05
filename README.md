@@ -44,6 +44,7 @@ The goal of this project is to practice modern JavaScript without frameworks, fo
 
 ## 📂 Project Structure
 
+```text
 /todo-app
 │── /build               # production output (generated)
 │
