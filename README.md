@@ -61,6 +61,7 @@ The goal of this project is to practice modern JavaScript without frameworks, fo
 ├── index.html
 │── package.json
 │── README.md
+```
 
 ---
 
