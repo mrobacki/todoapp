@@ -1,8 +1,13 @@
+@use "~bootstrap/scss/bootstrap" as bs;
+
+
 body {
-  background-color: pink;
-  font-size: 14px;
+  // background-color: bs.$primary;
 }
 
-h1 {
-  
+
+header {
+  .container {
+    // border-radius: bs.$border-radius-lg;
+  }
 }
