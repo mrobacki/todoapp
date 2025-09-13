@@ -1,14 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="build/style.css">
-</head>
-<body>
-  <h1>Testaaa</h1>
+<html lang="en" data-bs-theme="light">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ToDoApp</title>
+		<link rel="stylesheet" href="build/style.css" />
+	</head>
+	<body>
+	<div class="row h-100 g-0 wrapper">
+		<div class="col-md-3 px-4 py-4 bg-body-tertiary sidebar">
+		<div class="sidebar-top-bar">
+			<span class="sidebar-toggle">
+			<i class="fas fa-bars"></i>
+			</span>
+		</div>
+		<div class="sidebar-nav">
+			<ul>
+			<li>Zadania na dzisiaj</li>
+			<li>Wazne</li>
+			<li>Wszystkie</li>
+			<li>1</li>
+			<li>2</li>
+			</ul>
+		</div>
+		<div class="sidebar-list">
+			<p><i class="fas fa-plus"></i>nowa lista</p>
+		</div>
+		</div>
+		<div class="col-md-9 px-4 content">
+		<header class="py-2">
+			<div class="row align-items-center">
+			<div class="col-md-4">ToDoApp</div>
+			<div class="col-1 offset-md-7">
+				<div
+				class="btn-group roundend-2 dark-mode-buttons"
+				role="group"
+				aria-label="Light Dark Mode"
+				>
+				<button type="button" class="btn btn-primary active">
+					<i class="far fa-sun"></i>
+				</button>
+				<button type="button" class="btn btn-primary">
+					<i class="far fa-moon"></i>
+				</button>
+				</div>
+			</div>
+			</div>
+		</header>
+		<div class="app-bar py-2">
+			<div class="row">
+			<div class="col-8">
+				<h1>Zadania</h1>
+			</div>
+			<div class="col-4">
+				<p><i class="fas fa-sort"></i>Kolejność</p>
+			</div>
+			</div>
+		</div>
+		<div class="todo-list py-4">list</div>
+		</div>
+	</div>
 
-  <script src="build/script.bundle.js"></script>
-</body>
+	<script src="build/script.bundle.js"></script>
+	</body>
 </html>
